@@ -1,5 +1,21 @@
+.heading {
+  text-align: center;
+  text-shadow: 2px 2px gray;
+}
+
 .editor {
-    border: 1px solid #ccc;
-    padding: 5px;
-    min-height: 200px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  min-height: 200px;
+}
+
+@media only screen and (max-width: 400px) {
+  .editor {
+    font-size: 100px;
   }
+}
+
+button {
+  padding: 3px;
+  margin: 3px;
+}
